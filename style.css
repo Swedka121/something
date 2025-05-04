@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap");
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: "Tagesschrift", system-ui;
+}
+.pitch {
+    width: 600px;
+    height: 600px;
+    border: 20px solid black;
+}
+.row {
+    width: 600px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cell_1 {
+    width: 60px;
+    height: 60px;
+    background: rgb(89, 230, 7);
+}
+.cell_2 {
+    width: 60px;
+    height: 60px;
+    background: rgb(70, 180, 7);
+}
+.cell_apple {
+    width: 60px;
+    height: 60px;
+    background: red;
+}
+.cell_snake {
+    width: 60px;
+    height: 60px;
+    background: green;
+}
+.cell_snake_head {
+    width: 60px;
+    height: 60px;
+    background: darkgreen;
+}
